@@ -27,14 +27,6 @@ ${Add-Details-TextBox}      //android.widget.EditText[@text='Add title']
 ${Toggle-Action}        //android.widget.Switch[@index='1' and @package='com.google.android.calendar']
 ${Save-Button}          //android.widget.Button[@text='Save' and @index='2']
 
-
-
-
-
-
-
-
-
 *** Test Cases ***
 OpenCalenderApplication
                Open Application    http://Localhost:4723/wd/hub
