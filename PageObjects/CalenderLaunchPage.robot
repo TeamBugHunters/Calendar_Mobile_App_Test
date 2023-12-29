@@ -11,7 +11,7 @@ ${button-GotIt}         //*[@text='Got it']
 *** Keywords ***
 Skip initial setup
         Click Next Button
-        Click Next Button
+       # Click Next Button
         Click Got It Button
 
 Click Next Button

@@ -4,5 +4,7 @@
 *** Variables ***
 
 ${Add-Title}        Create Birthday Event
-
+${Reminder-Title}   Reminder to Work
+${Task-Title}       MobileTesting Task
+${Task-Description}     This is my first Task
 *** Keywords ***

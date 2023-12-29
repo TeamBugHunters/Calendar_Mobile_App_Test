@@ -1,6 +1,7 @@
 *** Settings ***
 Library     AppiumLibrary   timeout=30s
 Resource        ../Resources/TestData/Title.robot
+
 *** Keywords ***
 
 
