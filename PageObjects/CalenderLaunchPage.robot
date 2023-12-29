@@ -4,8 +4,10 @@ Library     AppiumLibrary
 
 
 *** Variables ***
-${next-button}          //*[@class='android.widget.ImageButton']
-${button-GotIt}         //*[@text='Got it']
+#${next-button}          //*[@class='android.widget.ImageButton']
+#${button-GotIt}         //*[@text='Got it']
+${next-button}            xpath=//android.widget.ImageView[@content-desc="next page"]
+${button-GotIt}           id=com.google.android.calendar:id/done_button
 
 
 *** Keywords ***
